@@ -57,7 +57,7 @@
 }
 
 .input-group{
-    width: 90%;
+    width: 90% !important;
     max-width: 500px;
     border-radius: 30px;
     background: #fff;
@@ -88,6 +88,8 @@
 h1{
     text-align: center;
     padding-bottom: 30px;
+    font-style: italic;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .feature-img img {
     width: 100%;
@@ -152,13 +154,95 @@ h1{
     margin-bottom: 30px;
 }
 .banner{
-    height: 80%;
+    height: 100%;
     background-image: url(image/kajuru.jpg);
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    padding-top: 14%;
+    margin-bottom: 30px;
+
+}
+.banner-highlights{
+    padding: 70px 0;
+    background:rgba(0,0,0,0.7);
+    text-align: center;
+    color: #fff;
+    
+
+}
+.booking-btn{
+    width: 120px;
+    padding: 8px 0;
+    outline: none !important;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    background-color: transparent;
+    color: #fff;
+    text-decoration:silver;
+    margin-top: 20px;
+}
+.users-feedback{
+    padding: 100px 0;
+}
+.user-review{
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,100,0.2);
+    padding-bottom: 50px;
+}
+.user-review p{
+    padding: 5px 10px 10px 10px;
+}
+.users-feedback img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin: -30px 0 20px 40%;
+}
+.user-review p::before{
+    content: "\201d";
+    display: block;
+    position: top;
+    font-size: 100px;
+    color: #6495ed;
+    font-family: sans-serif;
+    top: -20;
+    left: 20%;
+    padding-bottom:-10px; 
+}
+.footer{
+    padding: 50px 20px 15px;
+    background-image: linear-gradient(skyblue,rgb(3, 20, 6));
+    color: #fff;
+}
+.footer-logo{
+    width: 150px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.footer h4{
+    text-align: left;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.footer p {
+    font-size: 12px;
+    text-align: justify;
+    padding-right: 35px;
+}
+.footer hr{
+    margin-top: 10px;
+    background: white;
+}
+.footer .copyight{
+    text-align: center;
+    text-decoration: darkmagenta;
+    font-family: italic;
 }
 
+
+/*lonin css*/
 
 .card {
     margin-bottom: 20px;
@@ -203,7 +287,7 @@ h1{
 .box input[type="text"]:focus,
 .box input[type="password"]:focus {
     width: 300px;
-    border-color: #2ecc71
+    border-color: #2e3ecc
 }
 
 .box input[type="submit"] {
@@ -211,14 +295,14 @@ h1{
     background: none;
     display: block;
     margin: 20px auto;
-    text-align: center;
+    text-align:center;
     border: 2px solid #2ecc71;
     padding: 14px 40px;
     outline: none;
     color: white;
     border-radius: 24px;
     transition: 0.25s;
-    cursor: pointer
+    cursor:pointer
 }
 
 .box input[type="submit"]:hover {
@@ -256,7 +340,7 @@ ul.social-network li {
 .social-network a.icoFacebook:hover i,
 .social-network a.icoTwitter:hover i,
 .social-network a.icoGoogle:hover i {
-    color: #fff
+    color:rgb(255, 255, 255)
 }
 
 a.socialIcon:hover,
@@ -293,6 +377,9 @@ a.socialIcon:hover,
     transition: all 0.8s
 }
 .loginpg{
-    background-image: url(image/wall.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(image/wall.jpeg);
     background-size: 100%;
+    background-attachment: fixed;
+    background-origin: border-box;
+    background-position: inherit;
 }
