@@ -43,6 +43,7 @@
     width: 170px;
     float: left;
     height: 100px;
+    border-radius: 80px;
 }
 .login-btn1{
     width: 100px;
@@ -217,9 +218,12 @@ h1{
     color: #fff;
 }
 .footer-logo{
-    width: 150px;
-    margin-top: 15px;
+    width: 170px;
+    height: 100px;
     margin-bottom: 15px;
+    margin-top: 15px;
+    border-radius: 80px;
+
 }
 .footer h4{
     text-align: left;
